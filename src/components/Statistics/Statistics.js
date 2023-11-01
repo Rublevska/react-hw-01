@@ -5,7 +5,7 @@ export const Statistics = ({ title, stats }) => (
   <StatisticSection>
     {title && (
       <TitleWrapper>
-        <Title>Upload stats</Title>
+        <Title>{title}</Title>
       </TitleWrapper>
     )}
     <StatisticsList stats={stats} />

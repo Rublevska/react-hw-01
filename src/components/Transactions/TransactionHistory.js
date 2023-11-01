@@ -13,7 +13,7 @@ export const TransactionList = ({ items }) => (
 
     <tbody>
       {items.map(item => (
-        <TransactionString item={item} />
+        <TransactionString item={item} key={item.id} />
       ))}
     </tbody>
   </TransactionTable>
